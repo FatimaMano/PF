@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+main(){
+int MB = 1024 * 1024;
+int KB = 1024;
+int B = 8;
+int I_MB;
+cout<<"Enter megabytes";
+cin>> I_MB;
+cin>> I_B;
+
+double Result = I_MB * MB * KB * B;
+cout<<"Megabytes

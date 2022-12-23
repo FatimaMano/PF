@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main(){
+/* Write a C++ program that converts the weights from lbs (Pounds) to kgs(kilograms). 11b = 0.45kgs */
+float lb=0.45;
+float weight_pounds;
+float Result;
+cout<<"Enter weight in pounds";
+cin>>weight_pounds;
+Result = lb * weight_pounds;
+cout<<"Result";
+}

@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace sts;
+main(){
+int dollar;
+int Dollars;
+int Rupees;
+cout<<"Enter in Dollars";
+cin>>dollar;
+dollar = 200;
+Rupees = dollar * Dollars;
+cout<<endl;
+cout<<Dollars<<" in Rupees is: "<<Rupees;
