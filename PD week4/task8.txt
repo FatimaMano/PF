@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+void isEqualto(int x, int y);
+main()
+{
+
+int x,y;
+
+cout<<"Enter first number";
+cin>>x;
+cout<<"Enter second number";
+cin>>y;
+isEqualto(x,y);
+
+
+
+}
+
+
+void isEqualto(int x, int y)
+{
+if(x == y)
+{
+cout<<"true";
+
+}
+if(x != y)
+{
+cout<<"false";
+
+}
+
+}

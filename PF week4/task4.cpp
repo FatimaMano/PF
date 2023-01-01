@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std; 
+void calculateBill(string day, int amount);
+main()
+{
+string day;
+int amount;
+while(true)
+{
+cout<<"Enter day";
+cin>>day;
+cout<<"Enter the amount ";
+cin>>amount;
+calculateBill(day,amount);
+cout<<endl;
+}
+
+
+
+
+}
+void calculateBill(string day, int amount)
+{
+   float discount;
+   int bill;
+if(day == "sunday")
+{
+
+ discount = amount * 0.1;
+ bill = amount - discount;
+ cout<<"Your bill is"<<bill;
+
+}
+if(day != "sunday")
+{
+cout<<"Your bill is"<<amount;
+}
+
+
+
+}

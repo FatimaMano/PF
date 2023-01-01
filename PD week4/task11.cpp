@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+void challen_of_car(int speed);
+main()
+{
+ int speed;
+ cout<<"Enter the speed";
+ cin>>speed;
+ challen_of_car(speed);
+
+
+
+}
+void challen_of_car(int speed)
+{
+if(speed > 100)
+{
+cout<<"Halt.... YOU WILL BE CHALLLENGED!!!";
+}
+if(speed < 100)
+{
+cout<<"Perfect! You're going good";
+
+
+}
+
+
+
+
+
+
+}

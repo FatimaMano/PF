@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int Movie_name, Audult_ticket_price, child_ticket_price, Number_of_Adult_ticket_sold,Number_of_child_tickets_sold;
+float percentage_to_donate, total_amount-generated, amount_after_donation;
+cout<<"Enter Movie name";
+cin>>Movie_name;
+cout<<"Enter Audult_ticket_price";
+cin>>Audult_ticket_price;
+cout<<"Enter child_ticket_price";
+cin>>child_ticket_price;
+cout<<"Enter  Number_of_Adult_ticket_sold";
+cin<<Number_of_Adult_ticket_sold;
+cout<<"Enter Number_of_child_tickets_sold";
+cin>>Number_of_child_tickets_sold;
+cout<<"Enter percentage to donate";
+cin>>percentage_to_donate;
+
+total_amount-generated = (Audult_ticket_price* Number_of_Adult_ticket_sold) + (Number_of_child_tickets_sold * child_ticket_price);
+
+amount_after_donation = total_amount-generated - (total_amount-generated*0.1);
+
+
+
+
+
+}

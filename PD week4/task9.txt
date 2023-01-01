@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+void reverse(string choice);
+main()
+{
+
+string choice;
+cout<<"Enter your choice";
+cin>>choice;
+reverse(choice)
+
+
+
+}
+
+void reverse(string choice);
+{
+if(choice == "true")
+{
+cout<<"false";
+
+}
+if(choice == "false")
+{
+cout<<"true";
+
+}
+
+}
