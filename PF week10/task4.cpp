@@ -8,6 +8,9 @@ main()
     int arraysize;
     cout << "Array Length";
     cin >> arraysize;
+    int cyclelength;
+    cout<<"Enter cycle length";
+    cin>>cyclelength;
     int numbers[arraysize];
     for (int idx = 0; idx < arraysize; idx++)
     {
